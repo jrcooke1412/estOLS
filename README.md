@@ -9,8 +9,8 @@ estOLS is a C++ program to calculate the estimates from an ordinary least square
 
 Files contained in this directory:
 
-- **doc** &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; File containing benchmark report
-- **docker** &emsp; &emsp; &ensp; &nbsp; Directory for Docker containerization
+- **doc** &emsp; &emsp; &emsp; &emsp; &nbsp; &nbsp; &nbsp; File containing benchmark report
+- **docker** &emsp; &emsp; &ensp; &emsp; &nbsp; Directory for Docker containerization
 - **examples** &emsp; &emsp; &ensp; &nbsp; Example XMAT and yVEC input files
 - **src** &emsp; &emsp; &emsp; &emsp; &emsp; &nbsp; File containing source to build estOLS
 - **README.md** &emsp; &nbsp; &nbsp; This file which contains install and operating instructions
