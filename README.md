@@ -39,11 +39,9 @@ To make elsOLS accessible anywhere in the terminal, enter the following command 
 
 ## **Running estOLS natively:**
 
-To run the application, have the built application "estOLS" in a folder with your XMAT and yVEC files or have it installed in the bin directory. 
+To run the application, navigate to the location of the data in your terminal window and run the following command without quotations:
 
-Navigate to the location of the data in your terminal window and run the following command without quotations:
-
-`./estOLS -x X.txt -y Y.txt -o beta.txt`
+`estOLS -x X.txt -y Y.txt -o beta.txt`
 
 where "X.txt" is the space or tab delimited X matrix text file, "Y.txt" is the Y vector in a text file, and "beta.txt" is the output file name. Examples of the input files can be found the the \examples directory in the estOLS program.
 
@@ -61,6 +59,6 @@ Locate the directory where your matrix and vector data is located in via a termi
 
 With the docker container now open, navigate to the directory that contains the X matrix text file and Y vector in that terminal window and enter the following command in the terminal without quotations to run the estOLS program:
 
-`./estOLS -x X.txt -y Y.txt -o beta.txt`
+`estOLS -x X.txt -y Y.txt -o beta.txt`
 
 where "X.txt" is the space or tab delimited X matrix text file, "Y.txt" is the Y vector in a text file, and "beta.txt" is the output file name.
